@@ -6,12 +6,15 @@ LoveTest.vn
 
 @section('content')
 	<form action="{{URL::asset('register')}}" method='post' id='register_frm'><br/>
+		Họ và tên(*): <input type='text' name='full_name' id='full_name' /><br/>
 		Tên đăng nhập(*): <input type='text' name='user_name' id='user_name' /><br/>
 		Mật khẩu(*): <input type='password' name='password' id='password' /><br/>
 		Nhập lại mật khẩu(*): <input type='password' name='re_password' id='re_password' /><br/>
 		Email(*): <input type='email' name='email' id='email' /><br/>
 		Nhập lại email(*): <input type='email' name='re_email' id='re_email'/><br/>
-		Ngày sinh: <input type=>
+		Ngày sinh(*): <input type="text" id="birthday" name="birthday" value="01/01/1990" />
+		Giới tính: <input type="radio" name="gender" value="male" id="gender">Nam</input>
+		<input type="radio" name="gender" value="female" id="gender">Nữ</input><br/>
 		Điều khoản sử dụng:
 		<br/>
 		<textarea id="txt_rules"></textarea>
@@ -20,6 +23,11 @@ LoveTest.vn
 		<label id="lblError"></label>
 		<input type='submit' value='Đăng ký' id='register' />
 	</form>
+	<script type="text/javascript">
+		$(function(){
+			$('#birthday').datepicker({dateFormat: 'dd/mm/yy'});
+		});
+	</script>
 	<script type="text/javascript">
 		$("#register_frm").validate({
 			errorLabelContainer: $("#lblError"),
@@ -56,6 +64,12 @@ LoveTest.vn
 				},
 				cb_rules:{
 					required: true
+				},
+				gender:{
+					required:true
+				},
+				full_name:{
+					required:true
 				}
 			},
 			messages:{
@@ -85,6 +99,12 @@ LoveTest.vn
 				},
 				cb_rules:{
 					required:"* Bạn phải đồng ý với điều khoản sử dụng để đăng ký<br>"
+				},
+				gender:{
+					required:"* Bạn phải lựa chọn giới tính<br>"
+				},
+				full_name:{
+					required:"* Bạn chưa nhập họ và tên<br>"
 				}
 			},
 		});

@@ -16,11 +16,15 @@ class CreateUsersTable extends Migration {
 		Schema::create('USERS',function($table){
 			$table->increments('USERID');
 			$table->text('USERNAME');
+			$table->text('FULLNAME');
+			$table->text('USERADDRESS');
+			$table->text('USERJOB');
 			$table->text('EMAIL');
-			$table->integer('BIRTHDAY')->nullable();
+			$table->text('GENDER');
+			$table->text('RELATIONSHIP');
+			$table->date('BIRTHDAY')->nullable();
 			$table->text('AVATAR')->nullable();
 			$table->text('PASSWORD');
-			$table->text('USERTYPE');
 			$table->timestamps();
 		});
 	}

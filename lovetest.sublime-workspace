@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
-				"redir",
-				"Redirect"
-			],
-			[
-				"login",
-				"login"
+				"fu",
+				"full_name"
 			],
 			[
 				"user",
-				"user_name"
+				"userInfo"
+			],
+			[
+				"us",
+				"userInfo"
+			],
+			[
+				"un",
+				"unserialize"
+			],
+			[
+				"login",
+				"login_success"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"redir",
+				"Redirect"
 			],
 			[
 				"stat",
@@ -94,10 +110,6 @@
 			[
 				"param",
 				"params"
-			],
-			[
-				"us",
-				"userAvatar"
 			],
 			[
 				"array_ke",
@@ -220,14 +232,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/routes.php",
-			"settings":
-			{
-				"buffer_size": 1896,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/views/templates/header.blade.php",
 			"settings":
 			{
@@ -239,7 +243,7 @@
 			"file": "app/views/template.blade.php",
 			"settings":
 			{
-				"buffer_size": 798,
+				"buffer_size": 1049,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,18 +275,31 @@
 			"file": "app/views/register.blade.php",
 			"settings":
 			{
-				"buffer_size": 2513,
+				"buffer_size": 3153,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "@extends(\"template\")\n\n@section(\"title\")\n	Trang cá nhân\n@endsection\n\n@section(\"content\")\n	\n@endsection",
 			"file": "app/views/personal.blade.php",
-			"file_size": 111,
-			"file_write_time": 130458335889154669,
 			"settings":
 			{
-				"buffer_size": 101,
+				"buffer_size": 1331,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 2343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/RegisterController.php",
+			"settings":
+			{
+				"buffer_size": 924,
 				"line_ending": "Windows"
 			}
 		}
@@ -343,13 +360,14 @@
 	},
 	"file_history":
 	[
-		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023608_create_users_table.php",
 		"/E/VertrigoServ/www/lovetest/app/models/User.php",
+		"/E/VertrigoServ/www/lovetest/app/routes.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController.php",
 		"/E/VertrigoServ/www/lovetest/app/views/register.blade.php",
 		"/F/Installation/Sublime Text 2.0.2 x64/Data/Packages/SVN/SVN.sublime-settings",
 		"/E/VertrigoServ/www/lovetest/app/controllers/LoginController.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/UserController.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023608_create_users_table.php",
 		"/E/VertrigoServ/www/lovetest/app/views/successful-register.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/successfulregister.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023831_create_user_like_hobby_table.php",
@@ -400,7 +418,6 @@
 		"/E/VertrigoServ/www/lovetest/public/resources/css/grid.css",
 		"/E/VertrigoServ/www/lovetest/public/resources/css/form.css",
 		"/E/VertrigoServ/www/lovetest/public/resources/js/jquery.hoverdir.js",
-		"/E/VertrigoServ/www/lovetest/app/routes.php",
 		"/E/VertrigoServ/www/lovetest/public/resources/css/thumbs.css",
 		"/E/VertrigoServ/www/lovetest/app/views/css/style.css",
 		"/E/Wamp/www/lovetest/app/config/app.php",
@@ -504,39 +521,11 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/routes.php",
-					"settings":
-					{
-						"buffer_size": 1896,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								433,
-								433
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 456.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/views/templates/header.blade.php",
 					"settings":
 					{
@@ -547,8 +536,35 @@
 						"selection":
 						[
 							[
-								111,
-								111
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/template.blade.php",
+					"settings":
+					{
+						"buffer_size": 1049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								590
 							]
 						],
 						"settings":
@@ -564,33 +580,6 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/template.blade.php",
-					"settings":
-					{
-						"buffer_size": 798,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								689,
-								689
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "app/views/home.blade.php",
 					"settings":
 					{
@@ -616,7 +605,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "app/views/templates/header.blade.php",
 					"settings":
 					{
@@ -643,7 +632,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "app/views/login.blade.php",
 					"settings":
 					{
@@ -654,34 +643,8 @@
 						"selection":
 						[
 							[
-								18,
-								18
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/register.blade.php",
-					"settings":
-					{
-						"buffer_size": 2513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18,
-								18
+								274,
+								279
 							]
 						],
 						"settings":
@@ -696,24 +659,106 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "app/views/personal.blade.php",
+					"buffer": 5,
+					"file": "app/views/register.blade.php",
 					"settings":
 					{
-						"buffer_size": 101,
+						"buffer_size": 3153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								89,
-								89
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/personal.blade.php",
+					"settings":
+					{
+						"buffer_size": 1331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/routes.php",
+					"settings":
+					{
+						"buffer_size": 2343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2343,
+								2343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/controllers/RegisterController.php",
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								432,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
