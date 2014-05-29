@@ -1,0 +1,789 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"redir",
+				"Redirect"
+			],
+			[
+				"login",
+				"login"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"ar",
+				"array	$… = array (…)"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"regist",
+				"register_frm"
+			],
+			[
+				"ch",
+				"check"
+			],
+			[
+				"ru",
+				"rules"
+			],
+			[
+				"user_",
+				"user_input"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"getLogin",
+				"getLoginState"
+			],
+			[
+				"s",
+				"session_register"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"face",
+				"facebook_id"
+			],
+			[
+				"Face",
+				"FacebookLoginController"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"fc",
+				"fblc"
+			],
+			[
+				"F",
+				"FacebookLoginController"
+			],
+			[
+				"param",
+				"params"
+			],
+			[
+				"us",
+				"userAvatar"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"tabl",
+				"table	<table>"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"slide",
+				"slideChanged"
+			],
+			[
+				"Ho",
+				"HocSinh"
+			],
+			[
+				"da",
+				"diachi"
+			],
+			[
+				"di",
+				"diachi"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"a",
+				"a	<a href=\"mailto:\">"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"user_E",
+				"user_email"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ran",
+				"range"
+			],
+			[
+				"b",
+				"b	<b>"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 1896,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/templates/header.blade.php",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/template.blade.php",
+			"settings":
+			{
+				"buffer_size": 798,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/templates/header.blade.php",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/register.blade.php",
+			"settings":
+			{
+				"buffer_size": 2513,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@extends(\"template\")\n\n@section(\"title\")\n	Trang cá nhân\n@endsection\n\n@section(\"content\")\n	\n@endsection",
+			"file": "app/views/personal.blade.php",
+			"file_size": 111,
+			"file_write_time": 130458335889154669,
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"svn",
+				"Preferences: SVN Settings"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController.php",
+		"/E/VertrigoServ/www/lovetest/app/models/User.php",
+		"/E/VertrigoServ/www/lovetest/app/views/register.blade.php",
+		"/F/Installation/Sublime Text 2.0.2 x64/Data/Packages/SVN/SVN.sublime-settings",
+		"/E/VertrigoServ/www/lovetest/app/controllers/LoginController.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/UserController.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023608_create_users_table.php",
+		"/E/VertrigoServ/www/lovetest/app/views/successful-register.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/successfulregister.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023831_create_user_like_hobby_table.php",
+		"/E/VertrigoServ/www/lovetest/public/assets/css/style.css",
+		"/E/VertrigoServ/www/lovetest/app/views/login.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController",
+		"/E/VertrigoServ/www/lovetest/app/views/home.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/templates/home1.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/FacebookLoginController.php",
+		"/E/VertrigoServ/www/lovetest/app/models/Profile.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_26_160205_create_profiles_table.php",
+		"/E/VertrigoServ/www/lovetest/app/views/templates/header.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/templates/header-login.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/models/FbUser.php",
+		"/E/VertrigoServ/www/lovetest/app/models/FbProfile.php",
+		"/E/VertrigoServ/www/lovetest/app/config/facebook.php",
+		"/E/VertrigoServ/www/lovetest/app/models/FbProfiles.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_26_150932_create_fb_users_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_26_150959_create_fb_profiles_table.php",
+		"/E/VertrigoServ/www/lovetest/app/views/personal.blade.php",
+		"/E/VertrigoServ/www/testsession.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023514_create_hobbies_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023759_create_hobby_has_question_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023727_create_question_has_answer_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023642_create_answers_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023625_create_questions_table.php",
+		"/E/VertrigoServ/www/lovetest/lovetest.sublime-project",
+		"/E/VertrigoServ/www/lovetest/app/views/template1.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_011319_create_tables.php",
+		"/E/VertrigoServ/www/lovetest/composer.json",
+		"/E/VertrigoServ/www/lovetest/app/config/app.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_21_164407_create_users_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_21_164425_create_profiles_table.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/BaseController.php",
+		"/E/VertrigoServ/www/lovetest/app/views/template.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/FacebookLoginController",
+		"/E/VertrigoServ/www/lovetest/public/assets/css/superfish.css",
+		"/E/VertrigoServ/www/lovetest/app/views/templates/footer.blade.php",
+		"/E/VertrigoServ/www/lovetest/public/resources/css/superfish.css",
+		"/E/VertrigoServ/www/lovetest/app/config/database.php",
+		"/E/VertrigoServ/www/lovetest-template/site/index.html",
+		"/E/VertrigoServ/www/lovetest/public/resources/css/style.css",
+		"/E/VertrigoServ/www/laravel-facebook-login-master/app/views/layouts/layout.blade.php",
+		"/E/VertrigoServ/www/laravel-facebook-login-master/app/routes.php",
+		"/C/Users/CaoMinh/Desktop/QLTTANHNGU.sql",
+		"/E/VertrigoServ/www/laravel-facebook-login-master/composer.json",
+		"/E/VertrigoServ/www/lovetest/public/resources/css/slider.css",
+		"/E/VertrigoServ/www/lovetest/public/resources/css/grid.css",
+		"/E/VertrigoServ/www/lovetest/public/resources/css/form.css",
+		"/E/VertrigoServ/www/lovetest/public/resources/js/jquery.hoverdir.js",
+		"/E/VertrigoServ/www/lovetest/app/routes.php",
+		"/E/VertrigoServ/www/lovetest/public/resources/css/thumbs.css",
+		"/E/VertrigoServ/www/lovetest/app/views/css/style.css",
+		"/E/Wamp/www/lovetest/app/config/app.php",
+		"/E/Wamp/www/lovetest/app/views/index.blade.php",
+		"/E/Wamp/www/lovetest/app/views/footer.blade.php",
+		"/E/Wamp/www/lovetest/app/views/header-login.blade.php",
+		"/E/Wamp/www/lovetest/app/routes.php",
+		"/E/Wamp/www/lovetest/app/views/templates/index.blade.php",
+		"/E/Wamp/www/lovetest/public/index.php",
+		"/E/Wamp/www/lovetest/app/views/template.blade.php",
+		"/E/Wamp/www/lovetest/app/views/dang-nhap.php",
+		"/E/Wamp/www/lovetest-template/site/css/style.css",
+		"/E/Wamp/www/lovetest-template/site/css/grid.css",
+		"/E/Wamp/www/lovetest-template/site/css/superfish.css",
+		"/E/Wamp/www/lovetest-template/site/index.html",
+		"/E/Wamp/www/lovetest/site/index.html",
+		"/E/Project/New Folder/TestGroupLayout/src/testgrouplayout/TestGroupLayout.java",
+		"/C/Users/CaoMinh/Downloads/Compressed/QLTTAnhNgu/QLTTAnhNgu/src/qlttanhngu/gui/FrameDangKy.java",
+		"/C/Users/CaoMinh/Downloads/Compressed/QLTTAnhNgu/QLTTAnhNgu/src/qlttanhngu/gui/FrameMain.java",
+		"/C/Users/CaoMinh/Downloads/Compressed/QLTTAnhNgu/QLTTAnhNgu/src/qlttanhngu/gui/FrameDangKy.form",
+		"/E/Project/New Folder/TestGroupLayout/src/testgrouplayout/TestGroupLayout.form",
+		"/C/Users/CaoMinh/Desktop/test.java",
+		"/F/Quan Ly Hoc Sinh/script.sql",
+		"/E/Wamp/www/lovetest/site/images/favicon.ico",
+		"/E/BaiGiang/Nhap Mon CNPM/BCFinal/Querry Ultimate.sql",
+		"/E/Wamp/www/lovetest/app/views/index.php",
+		"/E/Wamp/www/lovetest/app/views/app/config.php",
+		"/E/Wamp/www/lovetest/app/views/app/detect.php",
+		"/E/Wamp/www/lovetest/app/views/app/contact.php",
+		"/C/Users/CaoMinh/Desktop/etsdff.php",
+		"/E/disable",
+		"/E/mang.bat",
+		"/E/Wamp/www/chuong4.php",
+		"/E/Wamp/www/cookie.php",
+		"/E/Wamp/www/encode.php",
+		"/E/Wamp/www/test.txt",
+		"/E/Wamp/www/encode2.php",
+		"/E/Wamp/www/uesfile.php",
+		"/E/Wamp/www/testoop.php",
+		"/E/Wamp/www/test.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"()->",
+			"span",
+			"sett",
+			"resources",
+			"sf-menu",
+			"horizontal-nav",
+			"san",
+			"donate",
+			"san",
+			"container",
+			"hoverDir",
+			"item",
+			"slideSelectors",
+			"slide",
+			"app/views/",
+			"page1",
+			"container_12",
+			"frameBaoCaoNo",
+			"btnBCNoActionPerformed",
+			"InitFrameInternal",
+			"frDangKy",
+			"jDesktopPane1",
+			"TabTrangChinh",
+			"containpane",
+			"TabTrangChinh",
+			"contact.php",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"assets",
+			"resources/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/routes.php",
+					"settings":
+					{
+						"buffer_size": 1896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/templates/header.blade.php",
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/template.blade.php",
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/home.blade.php",
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/templates/header.blade.php",
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/login.blade.php",
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/register.blade.php",
+					"settings":
+					{
+						"buffer_size": 2513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/personal.blade.php",
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.xdebug_inspect":
+	{
+		"height": 58.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true
+}
