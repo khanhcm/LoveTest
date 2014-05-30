@@ -17,8 +17,8 @@ class CreateQuestionHasAnswerTable extends Migration {
 			$table->integer('QUESTIONID')->unsigned();
 			$table->integer('ANSWERID')->unsigned();
 			$table->primary(array('QUESTIONID','ANSWERID'));
-			$table->foreign('ANSWERID')->references('ANSWERID')->on('ANSWERS');
-			$table->foreign('QUESTIONID')->references('QUESTIONID')->on('QUESTIONS');
+			$table->foreign('ANSWERID')->references('ID')->on('ANSWERS');
+			$table->foreign('QUESTIONID')->references('ID')->on('QUESTIONS');
 			$table->timestamps();
 		});
 	}

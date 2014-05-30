@@ -14,8 +14,9 @@ class CreateHobbiesTable extends Migration {
 	{
 		//
 		Schema::create('HOBBIES',function($table){
-			$table->increments('HOBBYID');
+			$table->increments('ID');
 			$table->text('HOBBYNAME');
+			$table->text('HOBBYCODE');
 			$table->timestamps();
 		});
 	}

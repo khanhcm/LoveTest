@@ -14,7 +14,7 @@ class CreateUsersTable extends Migration {
 	{
 		//
 		Schema::create('USERS',function($table){
-			$table->increments('USERID');
+			$table->increments('ID');
 			$table->text('USERNAME');
 			$table->text('FULLNAME');
 			$table->text('USERADDRESS');
@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration {
 			$table->text('EMAIL');
 			$table->text('GENDER');
 			$table->text('RELATIONSHIP');
-			$table->date('BIRTHDAY')->nullable();
+			$table->text('BIRTHDAY')->nullable();
 			$table->text('AVATAR')->nullable();
 			$table->text('PASSWORD');
 			$table->timestamps();

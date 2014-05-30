@@ -2,17 +2,21 @@
 class RegisterController extends BaseController{
 	public function register(){
 		$rules = array(
-			'user_name' => 'required|min:7',
+			'user_name' => 'required|min:5',
 			'password' => 'required|min:6',
-			'email' => 'email|required'
+			'email' => 'email|required',
+			'full_name' => 'required',
+			'birthday' => 'required'
 		 );
 		if(!Validator::make(Input::all(),$rules)->fails()){
-			if(User::check_user(Input::get('user_name')) && User::check_email('email'=>Input::get('email'))){
+			if(User::check_user(Input::get('user_name')) && User::check_email(Input::get('email'))){
 				$user = new User();
-				$user->fullname = Input::get('full_name')
+				$user->fullname = Input::get('full_name');
 				$user->username = Input::get('user_name');
 				$user->password = md5(sha1(Input::get('password')));
 				$user->email = Input::get('email');
+				$user->birthday =  Input::get('birthday');
+				$user->avatar  = 'default_avatar.jpg';
 				if(Input::get('male',true))
 					$user->gender = "Nam";
 				else $user->gender = "Nữ";

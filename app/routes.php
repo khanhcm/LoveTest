@@ -80,3 +80,37 @@ Route::get("personal",function(){
     return View::make("personal");
 });
 
+Route::post("personal", function(){
+    $userInfo = Session::get('user_info');
+    $userid = $userInfo[0]['ID'];
+    Session::forget('user_info');
+    $image = Input::file('avatar');
+    if($image != null){
+        $destinationPath = 'uploads/images/';
+        $image = 'default_avatar.jpg';
+        $filename = $image->getClientOriginalName();
+        $upload_success = $image->move($destinationPath,$filename);  
+    }
+    else{
+        $filename = 'default_avatar.jpg';
+    }
+    
+    $affectedRows = User::where("id","=",$userid)->update(array(
+        'FULLNAME'=>Input::get("full_name"),
+        'BIRTHDAY'=>Input::get("date_of_birth"),
+        'USERADDRESS'=>Input::get("user_address"),
+        'AVATAR'=>$filename,
+        'USERJOB'=>Input::get("user_job"),
+        'RELATIONSHIP'=>Input::get("user_relationship")
+        ));
+    $user_info = User::where("id","=",$userid)->get()->toArray();
+    Session::put('user_info',$user_info);
+    return Redirect::to("personal");
+});
+
+Route::get('hobby',function(){
+    return View::make('hobby');
+});
+
+
+Route::get('match', 'BaseController@user_match');

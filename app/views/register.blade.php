@@ -5,14 +5,14 @@ LoveTest.vn
 @endsection
 
 @section('content')
-	<form action="{{URL::asset('register')}}" method='post' id='register_frm'><br/>
+	<form action="{{Asset('register')}}" method='post' id='register_frm'><br/>
 		Họ và tên(*): <input type='text' name='full_name' id='full_name' /><br/>
 		Tên đăng nhập(*): <input type='text' name='user_name' id='user_name' /><br/>
 		Mật khẩu(*): <input type='password' name='password' id='password' /><br/>
 		Nhập lại mật khẩu(*): <input type='password' name='re_password' id='re_password' /><br/>
 		Email(*): <input type='email' name='email' id='email' /><br/>
 		Nhập lại email(*): <input type='email' name='re_email' id='re_email'/><br/>
-		Ngày sinh(*): <input type="text" id="birthday" name="birthday" value="01/01/1990" />
+		Ngày sinh(*): <input type="text" id="birthday" name="birthday" /><br/>
 		Giới tính: <input type="radio" name="gender" value="male" id="gender">Nam</input>
 		<input type="radio" name="gender" value="female" id="gender">Nữ</input><br/>
 		Điều khoản sử dụng:
@@ -30,11 +30,14 @@ LoveTest.vn
 	</script>
 	<script type="text/javascript">
 		$("#register_frm").validate({
-			errorLabelContainer: $("#lblError"),
+			errorLabelContainer:$("#lblError"),
 			rules:{
+				full_name:{
+					required:true
+				},
 				user_name:{
 					required:true,
-					minlength:7,
+					minlength:5,
 					remote:{
 						url:"{{Asset('check/check-username')}}",
 						type:"POST"
@@ -68,15 +71,18 @@ LoveTest.vn
 				gender:{
 					required:true
 				},
-				full_name:{
+				birthday:{
 					required:true
 				}
 			},
 			messages:{
+				full_name:{
+					required:"* Bạn chưa nhập họ và tên<br>"
+				},
 				user_name:{
-				required:"* Tên đăng nhập còn thiếu<br>",
-				minlength:"* Tên đăng nhập phải từ 7 kí tự trở lên<br>",
-				remote: "* Tên đăng nhập đã tồn tại<br>"
+					required:"* Tên đăng nhập còn thiếu<br>",
+					minlength:"* Tên đăng nhập phải từ 7 kí tự trở lên<br>",
+					remote: "* Tên đăng nhập đã tồn tại<br>"
 				},
 				password:{
 					required:"* Password còn thiếu<br>",
@@ -103,10 +109,10 @@ LoveTest.vn
 				gender:{
 					required:"* Bạn phải lựa chọn giới tính<br>"
 				},
-				full_name:{
-					required:"* Bạn chưa nhập họ và tên<br>"
+				birthday:{
+					required:"* Bạn chưa nhập ngày tháng năm sinh<br>"
 				}
-			},
+			}
 		});
 	</script>
 @endsection

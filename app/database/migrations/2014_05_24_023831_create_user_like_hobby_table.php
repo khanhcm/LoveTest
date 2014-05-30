@@ -17,8 +17,8 @@ class CreateUserLikeHobbyTable extends Migration {
 			$table->integer('HOBBYID')->unsigned();
 			$table->integer('USERID')->unsigned();
 			$table->primary(array('HOBBYID','USERID'));
-			$table->foreign('USERID')->references('USERID')->on('USERS');
-			$table->foreign('HOBBYID')->references('HOBBYID')->on('HOBBIES');
+			$table->foreign('USERID')->references('ID')->on('USERS');
+			$table->foreign('HOBBYID')->references('ID')->on('HOBBIES');
 			$table->timestamps();
 		});
 	}

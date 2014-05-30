@@ -4,12 +4,72 @@
 		"selected_items":
 		[
 			[
-				"fu",
-				"full_name"
+				"ho",
+				"hobby2"
+			],
+			[
+				"array",
+				"array_intersect"
+			],
+			[
+				"var",
+				"var_dump"
 			],
 			[
 				"user",
+				"userid1"
+			],
+			[
+				"conver",
+				"convertVietnamese"
+			],
+			[
+				"re",
+				"replace"
+			],
+			[
+				"ul",
+				"ulb"
+			],
+			[
+				"hob",
+				"hobby"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"chec",
+				"checkHobby"
+			],
+			[
+				"fi",
+				"filename"
+			],
+			[
+				"de",
+				"details	<details>"
+			],
+			[
+				"uer",
 				"userInfo"
+			],
+			[
+				"USER",
+				"USERADDRESS"
+			],
+			[
+				"full",
+				"full_name"
+			],
+			[
+				"fu",
+				"full_name"
 			],
 			[
 				"us",
@@ -42,10 +102,6 @@
 			[
 				"ar",
 				"array	$… = array (…)"
-			],
-			[
-				"re",
-				"required"
 			],
 			[
 				"regist",
@@ -188,10 +244,6 @@
 				"a	<a href=\"mailto:\">"
 			],
 			[
-				"for",
-				"foreach	foreach …"
-			],
-			[
 				"ex",
 				"exit"
 			],
@@ -235,23 +287,15 @@
 			"file": "app/views/templates/header.blade.php",
 			"settings":
 			{
-				"buffer_size": 387,
+				"buffer_size": 443,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/template.blade.php",
+			"file": "app/views/hobby.blade.php",
 			"settings":
 			{
-				"buffer_size": 1049,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/home.blade.php",
-			"settings":
-			{
-				"buffer_size": 98,
+				"buffer_size": 386,
 				"line_ending": "Windows"
 			}
 		},
@@ -259,7 +303,15 @@
 			"file": "app/views/templates/header.blade.php",
 			"settings":
 			{
-				"buffer_size": 387,
+				"buffer_size": 443,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/models/Hobby.php",
+			"settings":
+			{
+				"buffer_size": 1232,
 				"line_ending": "Windows"
 			}
 		},
@@ -275,7 +327,7 @@
 			"file": "app/views/register.blade.php",
 			"settings":
 			{
-				"buffer_size": 3153,
+				"buffer_size": 3254,
 				"line_ending": "Windows"
 			}
 		},
@@ -283,7 +335,7 @@
 			"file": "app/views/personal.blade.php",
 			"settings":
 			{
-				"buffer_size": 1331,
+				"buffer_size": 1843,
 				"line_ending": "Windows"
 			}
 		},
@@ -291,15 +343,23 @@
 			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 2343,
+				"buffer_size": 3445,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/RegisterController.php",
+			"file": "app/models/Question.php",
 			"settings":
 			{
-				"buffer_size": 924,
+				"buffer_size": 118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/UserMatchController.php",
+			"settings":
+			{
+				"buffer_size": 472,
 				"line_ending": "Windows"
 			}
 		}
@@ -360,21 +420,38 @@
 	},
 	"file_history":
 	[
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023608_create_users_table.php",
-		"/E/VertrigoServ/www/lovetest/app/models/User.php",
-		"/E/VertrigoServ/www/lovetest/app/routes.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/UserMatchController.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/QuestionController.php",
+		"/E/VertrigoServ/www/lovetest/app/models/UserLikeHobby.php",
+		"/E/VertrigoServ/www/lovetest/app/models/HobbyHasQuestion.php",
+		"/E/VertrigoServ/www/lovetest/app/models/Question.php",
+		"/E/VertrigoServ/www/lovetest/app/models/QuestionHasAnswer.php",
+		"/E/VertrigoServ/www/lovetest/app/models/Answer.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController.php",
+		"/E/VertrigoServ/www/lovetest/app/models/HobbyHasQuestion",
+		"/E/VertrigoServ/www/lovetest/app/models/Question",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023514_create_hobbies_table.php",
+		"/E/VertrigoServ/www/lovetest/app/views/home.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/template.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023625_create_questions_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023642_create_answers_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023727_create_question_has_answer_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023759_create_hobby_has_question_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023831_create_user_like_hobby_table.php",
+		"/E/VertrigoServ/www/lovetest/public/jquery-ui-1.10.4.custom.zip",
+		"/E/VertrigoServ/www/lovetest/app/routes.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023608_create_users_table.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/ChangeInformationController.php",
+		"/E/VertrigoServ/www/lovetest/app/models/User.php",
 		"/E/VertrigoServ/www/lovetest/app/views/register.blade.php",
 		"/F/Installation/Sublime Text 2.0.2 x64/Data/Packages/SVN/SVN.sublime-settings",
 		"/E/VertrigoServ/www/lovetest/app/controllers/LoginController.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/UserController.php",
 		"/E/VertrigoServ/www/lovetest/app/views/successful-register.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/successfulregister.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023831_create_user_like_hobby_table.php",
 		"/E/VertrigoServ/www/lovetest/public/assets/css/style.css",
 		"/E/VertrigoServ/www/lovetest/app/views/login.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController",
-		"/E/VertrigoServ/www/lovetest/app/views/home.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/templates/home1.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/FacebookLoginController.php",
 		"/E/VertrigoServ/www/lovetest/app/models/Profile.php",
@@ -389,11 +466,6 @@
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_26_150959_create_fb_profiles_table.php",
 		"/E/VertrigoServ/www/lovetest/app/views/personal.blade.php",
 		"/E/VertrigoServ/www/testsession.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023514_create_hobbies_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023759_create_hobby_has_question_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023727_create_question_has_answer_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023642_create_answers_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023625_create_questions_table.php",
 		"/E/VertrigoServ/www/lovetest/lovetest.sublime-project",
 		"/E/VertrigoServ/www/lovetest/app/views/template1.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_011319_create_tables.php",
@@ -402,7 +474,6 @@
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_21_164407_create_users_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_21_164425_create_profiles_table.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/BaseController.php",
-		"/E/VertrigoServ/www/lovetest/app/views/template.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/FacebookLoginController",
 		"/E/VertrigoServ/www/lovetest/public/assets/css/superfish.css",
 		"/E/VertrigoServ/www/lovetest/app/views/templates/footer.blade.php",
@@ -475,6 +546,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			");\n",
 			"()->",
 			"span",
 			"sett",
@@ -521,7 +593,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -529,7 +601,7 @@
 					"file": "app/views/templates/header.blade.php",
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 443,
 						"regions":
 						{
 						},
@@ -553,45 +625,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/template.blade.php",
+					"file": "app/views/hobby.blade.php",
 					"settings":
 					{
-						"buffer_size": 1049,
+						"buffer_size": 386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								590,
-								590
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/home.blade.php",
-					"settings":
-					{
-						"buffer_size": 98,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								86,
-								86
+								386,
+								386
 							]
 						],
 						"settings":
@@ -605,25 +650,51 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "app/views/templates/header.blade.php",
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								235,
-								235
+								217,
+								217
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/Hobby.php",
+					"settings":
+					{
+						"buffer_size": 1232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								456,
+								456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -643,8 +714,8 @@
 						"selection":
 						[
 							[
-								274,
-								279
+								386,
+								386
 							]
 						],
 						"settings":
@@ -663,15 +734,15 @@
 					"file": "app/views/register.blade.php",
 					"settings":
 					{
-						"buffer_size": 3153,
+						"buffer_size": 3254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								711,
-								711
+								1194,
+								1194
 							]
 						],
 						"settings":
@@ -680,7 +751,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 105.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -690,23 +761,24 @@
 					"file": "app/views/personal.blade.php",
 					"settings":
 					{
-						"buffer_size": 1331,
+						"buffer_size": 1843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								754,
-								754
+								633,
+								633
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -716,15 +788,15 @@
 					"file": "app/routes.php",
 					"settings":
 					{
-						"buffer_size": 2343,
+						"buffer_size": 3445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2343,
-								2343
+								3443,
+								3443
 							]
 						],
 						"settings":
@@ -734,31 +806,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1843.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "app/controllers/RegisterController.php",
+					"file": "app/models/Question.php",
 					"settings":
 					{
-						"buffer_size": 924,
+						"buffer_size": 118,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								432
+								111,
+								111
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/controllers/UserMatchController.php",
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

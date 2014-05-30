@@ -17,8 +17,8 @@ class CreateHobbyHasQuestionTable extends Migration {
 			$table->integer('HOBBYID')->unsigned();
 			$table->integer('QUESTIONID')->unsigned();
 			$table->primary(array('HOBBYID','QUESTIONID'));
-			$table->foreign('HOBBYID')->references('HOBBYID')->on('HOBBIES');
-			$table->foreign('QUESTIONID')->references('QUESTIONID')->on('QUESTIONS');
+			$table->foreign('HOBBYID')->references('ID')->on('HOBBIES');
+			$table->foreign('QUESTIONID')->references('ID')->on('QUESTIONS');
 			$table->timestamps();
 		});
 	}
