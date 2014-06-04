@@ -126,7 +126,7 @@ Route::post('hobby',function(){
     $hobbies = Hobby::all();
     $userInfo = Session::get('user_info');
     $userid = $userInfo[0]['ID'];
-    foreach ($hobbies as $key => $hobby)
+    foreach ($hobbies as $key => $hobby){
         if(UserLikeHobby::where("HOBBYID","=",$hobby->ID)->where("USERID","=",$userid)->count()<=0){
             if(Input::get($hobby->HOBBYCODE) === "yes"){
                 $uslhb = new UserLikeHobby();
@@ -134,13 +134,18 @@ Route::post('hobby',function(){
                 $uslhb->HOBBYID = $hobby->ID;
                 $uslhb->save();
             }
+        }
+        else{
+            if(!Input::get($hobby->HOBBYCODE) === "yes"){
+                
+            }
             else{
-                $uslhbs = UserLikeHobby::where("HOBBYID","=",$hobby->ID)->where("USERID","=",$userid);
-                foreach ($uslhbs as $key => $uslhb) {
-                    $uslhb->delete();
-                }
+                $affectedRows = UserLikeHobby::where("HOBBYID","=",$hobby->ID)->where("USERID","=",$userid)->delete();
             }
         }
+        
+    }
+        
             
     return Redirect::to('question');
 });

@@ -40,13 +40,13 @@
 			@endif
 		@endforeach		
 		@if($check)
-			{{Form::checkbox($hobby->HOBBYCODE,"yes","true")}}{{$hobby->HOBBYNAME}}
+			{{Form::checkbox($hobby->HOBBYCODE,"yes","true",array("class"=>"form-control"))}}{{$hobby->HOBBYNAME}}
 			<br>
 		@else
-			{{Form::checkbox($hobby->HOBBYCODE,"yes")}}{{$hobby->HOBBYNAME}}<br>
+			{{Form::checkbox($hobby->HOBBYCODE,"yes","",array("class"=>"form-control"))}}{{$hobby->HOBBYNAME}}<br>
 		@endif
 	@endforeach
-	<input type="submit" value="Chọn sở thích">
+	<input type="submit" value="Chọn sở thích" class="form-control">
 </form>
 @endsection
 
