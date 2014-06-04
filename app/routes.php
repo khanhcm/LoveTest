@@ -122,3 +122,29 @@ Route::get('home2', function(){
     return View::make('home2');
 });
 
+Route::post('hobby',function(){
+    $hobbies = Hobby::all();
+    $userInfo = Session::get('user_info');
+    $userid = $userInfo[0]['ID'];
+    foreach ($hobbies as $key => $hobby)
+        if(UserLikeHobby::where("HOBBYID","=",$hobby->ID)->where("USERID","=",$userid)->count()<=0){
+            if(Input::get($hobby->HOBBYCODE) === "yes"){
+                $uslhb = new UserLikeHobby();
+                $uslhb->USERID = $userid;
+                $uslhb->HOBBYID = $hobby->ID;
+                $uslhb->save();
+            }
+            else{
+                $uslhbs = UserLikeHobby::where("HOBBYID","=",$hobby->ID)->where("USERID","=",$userid);
+                foreach ($uslhbs as $key => $uslhb) {
+                    $uslhb->delete();
+                }
+            }
+        }
+            
+    return Redirect::to('question');
+});
+
+Route::get('question',function(){
+    return View::make('question');
+});

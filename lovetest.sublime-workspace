@@ -348,74 +348,26 @@
 			}
 		},
 		{
-			"file": "app/views/register.blade.php",
+			"file": "app/views/home1.blade.php",
 			"settings":
 			{
-				"buffer_size": 1512,
-				"line_ending": "Unix"
+				"buffer_size": 2386,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/views/template.blade.php",
 			"settings":
 			{
-				"buffer_size": 2767,
+				"buffer_size": 2773,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/RegisterController.php",
+			"file": "app/views/register.blade.php",
 			"settings":
 			{
-				"buffer_size": 1065,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/Hobby.php",
-			"settings":
-			{
-				"buffer_size": 212,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/database/migrations/2014_05_24_023642_create_answers_table.php",
-			"settings":
-			{
-				"buffer_size": 494,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/database/migrations/2014_05_24_023759_create_hobby_has_question_table.php",
-			"settings":
-			{
-				"buffer_size": 738,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/database/migrations/2014_05_24_023625_create_questions_table.php",
-			"settings":
-			{
-				"buffer_size": 499,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/database/migrations/2014_05_24_023727_create_question_has_answer_table.php",
-			"settings":
-			{
-				"buffer_size": 741,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/database/migrations/2014_06_04_102929_insert_data.php",
-			"settings":
-			{
-				"buffer_size": 8300,
+				"buffer_size": 3503,
 				"line_ending": "Unix"
 			}
 		}
@@ -484,7 +436,27 @@
 	},
 	"file_history":
 	[
+		"/E/VertrigoServ/www/lovetest1/app/views/register.blade.php",
+		"/E/VertrigoServ/www/lovetest1/app/views/template.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/register.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/template.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController.php",
+		"/E/VertrigoServ/www/lovetest/app/models/Hobby.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130506_create_question_has_answer_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130727_insert_data.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130411_create_hobby_has_question_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130315_create_user_like_hobby_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130202_create_answers_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130121_create_questions_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130049_create_hobbies_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130005_create_users_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_125448_create_questions_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_125141_create_hobbies_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_125016_create_users_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023642_create_answers_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023514_create_hobbies_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023727_create_question_has_answer_table.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_102929_insert_data.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023759_create_hobby_has_question_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023625_create_questions_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023608_create_users_table.php",
@@ -497,17 +469,14 @@
 		"/E/VertrigoServ/www/yen/app/routes.php",
 		"/E/VertrigoServ/www/yen/app/views/templates/header.blade.php",
 		"/E/VertrigoServ/www/yen/public/assets/css/style.css",
-		"/E/VertrigoServ/www/lovetest/app/views/register.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/templates/header.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/hobby.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/login.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/views/template.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/successful.blade.php",
 		"/E/VertrigoServ/www/lovetest/public/assets/css/form.css",
 		"/E/VertrigoServ/www/yen/app/views/template.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/home1.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/routes.php",
-		"/E/VertrigoServ/www/lovetest/app/models/Hobby.php",
 		"/E/VertrigoServ/www/lovetest/app/views/personal.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/models/Question.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/UserMatchController.php",
@@ -516,12 +485,9 @@
 		"/E/VertrigoServ/www/lovetest/app/models/HobbyHasQuestion.php",
 		"/E/VertrigoServ/www/lovetest/app/models/QuestionHasAnswer.php",
 		"/E/VertrigoServ/www/lovetest/app/models/Answer.php",
-		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController.php",
 		"/E/VertrigoServ/www/lovetest/app/models/HobbyHasQuestion",
 		"/E/VertrigoServ/www/lovetest/app/models/Question",
 		"/E/VertrigoServ/www/lovetest/app/views/home.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023642_create_answers_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023727_create_question_has_answer_table.php",
 		"/E/VertrigoServ/www/lovetest/public/jquery-ui-1.10.4.custom.zip",
 		"/E/VertrigoServ/www/lovetest/app/controllers/ChangeInformationController.php",
 		"/E/VertrigoServ/www/lovetest/app/models/User.php",
@@ -597,15 +563,7 @@
 		"/E/Wamp/www/lovetest/app/views/app/contact.php",
 		"/C/Users/CaoMinh/Desktop/etsdff.php",
 		"/E/disable",
-		"/E/mang.bat",
-		"/E/Wamp/www/chuong4.php",
-		"/E/Wamp/www/cookie.php",
-		"/E/Wamp/www/encode.php",
-		"/E/Wamp/www/test.txt",
-		"/E/Wamp/www/encode2.php",
-		"/E/Wamp/www/uesfile.php",
-		"/E/Wamp/www/testoop.php",
-		"/E/Wamp/www/test.html"
+		"/E/mang.bat"
 	],
 	"find":
 	{
@@ -689,6 +647,7 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -703,8 +662,8 @@
 						"selection":
 						[
 							[
-								3589,
-								3589
+								959,
+								959
 							]
 						],
 						"settings":
@@ -714,7 +673,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2182.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -802,18 +761,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/views/register.blade.php",
+					"file": "app/views/home1.blade.php",
 					"settings":
 					{
-						"buffer_size": 1512,
+						"buffer_size": 2386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								898,
-								898
+								1676,
+								1676
 							]
 						],
 						"settings":
@@ -822,7 +781,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 985.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -832,15 +791,15 @@
 					"file": "app/views/template.blade.php",
 					"settings":
 					{
-						"buffer_size": 2767,
+						"buffer_size": 2773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1352,
-								1352
+								2003,
+								2003
 							]
 						],
 						"settings":
@@ -849,25 +808,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 206.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "app/controllers/RegisterController.php",
+					"file": "app/views/register.blade.php",
 					"settings":
 					{
-						"buffer_size": 1065,
+						"buffer_size": 3503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								810,
-								810
+								2713,
+								2713
 							]
 						],
 						"settings":
@@ -876,169 +835,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/models/Hobby.php",
-					"settings":
-					{
-						"buffer_size": 212,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/database/migrations/2014_05_24_023642_create_answers_table.php",
-					"settings":
-					{
-						"buffer_size": 494,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								374,
-								374
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 342.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/database/migrations/2014_05_24_023759_create_hobby_has_question_table.php",
-					"settings":
-					{
-						"buffer_size": 738,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								598,
-								598
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 453.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/database/migrations/2014_05_24_023625_create_questions_table.php",
-					"settings":
-					{
-						"buffer_size": 499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								368,
-								368
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 361.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/database/migrations/2014_05_24_023727_create_question_has_answer_table.php",
-					"settings":
-					{
-						"buffer_size": 741,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								367,
-								367
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 76.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "app/database/migrations/2014_06_04_102929_insert_data.php",
-					"settings":
-					{
-						"buffer_size": 8300,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1207,
-								1207
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1140.0,
+						"translation.y": 1488.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

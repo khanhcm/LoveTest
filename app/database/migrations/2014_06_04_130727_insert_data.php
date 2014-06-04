@@ -64,272 +64,158 @@ class InsertData extends Migration {
 			)
 		);
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Bạn thích nhất món ăn nào?"
+			"QUESTIONNAME" => "Bạn thích nhất món ăn nào?",
+			"HOBBYID" => 1
 		));
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Món ăn ở vùng miền nào làm bạn cảm thấy ngon miệng nhất?"
+			"QUESTIONNAME" => "Món ăn ở vùng miền nào làm bạn cảm thấy ngon miệng nhất?",
+			"HOBBYID" => 1
 		));
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Bạn thích ban nhạc nào nhất?"
+			"QUESTIONNAME" => "Bạn thích ban nhạc nào nhất?",
+			"HOBBYID" => 4
 		));
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Bạn đã từng chơi nhạc cụ nào chưa?"
+			"QUESTIONNAME" => "Bạn đã từng chơi nhạc cụ nào chưa?",
+			"HOBBYID" => 4
 		));
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Bạn có biết Roger Federer là ai không?"
+			"QUESTIONNAME" => "Bạn có biết Roger Federer là ai không?",
+			"HOBBYID" => 6
 		));
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Môn thể thao bạn thích nhất là gì?"
+			"QUESTIONNAME" => "Môn thể thao bạn thích nhất là gì?",
+			"HOBBYID" => 6
 		));
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Trước một chuyến dã ngoại ở một nơi xa xôi hẻo lánh, bạn sẽ mang theo cái gì?"
+			"QUESTIONNAME" => "Trước một chuyến dã ngoại ở một nơi xa xôi hẻo lánh, bạn sẽ mang theo cái gì?",
+			"HOBBYID" => 7
 		));
 		DB::table('questions')->insert(array(
-			"QUESTIONNAME" => "Tình yêu đối với bạn là như thế nào?"
+			"QUESTIONNAME" => "Tình yêu đối với bạn là như thế nào?",
+			"HOBBYID" => 10
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Thức ăn nhanh"
+			"ANSWERNAME"=>"Thức ăn nhanh",
+			"QUESTIONID"=>1
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Đồ ăn truyền thống"
+			"ANSWERNAME"=>"Đồ ăn truyền thống",
+			"QUESTIONID"=>1
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Hamburger"
+			"ANSWERNAME"=>"Hamburger",
+			"QUESTIONID"=>1
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Món nào cũng ngán"
+			"ANSWERNAME"=>"Món nào cũng ngán",
+			"QUESTIONID"=>1
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Miền Bắc"
+			"ANSWERNAME"=>"Miền Bắc",
+			"QUESTIONID"=>2
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Miền Trung"
+			"ANSWERNAME"=>"Miền Trung",
+			"QUESTIONID"=>2
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Miền Nam"
+			"ANSWERNAME"=>"Miền Nam",
+			"QUESTIONID"=>2
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Miền nào cũng ngon hết"
+			"ANSWERNAME"=>"Miền nào cũng ngon hết",
+			"QUESTIONID"=>2
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Linkin' Park"
+			"ANSWERNAME"=>"Linkin' Park",
+			"QUESTIONID"=>3
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Secret Garden"
+			"ANSWERNAME"=>"Secret Garden",
+			"QUESTIONID"=>3
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Slaghterhouse"
+			"ANSWERNAME"=>"Slaghterhouse",
+			"QUESTIONID"=>3
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Westlife"
+			"ANSWERNAME"=>"Westlife",
+			"QUESTIONID"=>3
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Trống"
+			"ANSWERNAME"=>"Trống",
+			"QUESTIONID"=>4
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Kèn"
+			"ANSWERNAME"=>"Kèn",
+			"QUESTIONID"=>4
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Guitar"
+			"ANSWERNAME"=>"Guitar",
+			"QUESTIONID"=>4
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Chưa biết"
+			"ANSWERNAME"=>"Chưa biết",
+			"QUESTIONID"=>4
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Chưa nghe nói đến bao giờ"
+			"ANSWERNAME"=>"Chưa nghe nói đến bao giờ",
+			"QUESTIONID"=>5
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Anh ấy là một huyền thoại"
+			"ANSWERNAME"=>"Anh ấy là một huyền thoại",
+			"QUESTIONID"=>5
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Bóng đá"
+			"ANSWERNAME"=>"Bóng đá",
+			"QUESTIONID"=>6
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Cầu lông"
+			"ANSWERNAME"=>"Cầu lông",
+			"QUESTIONID"=>6
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Bóng chuyền"
+			"ANSWERNAME"=>"Bóng chuyền",
+			"QUESTIONID"=>6
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Bơi lội"
+			"ANSWERNAME"=>"Bơi lội",
+			"QUESTIONID"=>6
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Thức ăn"
+			"ANSWERNAME"=>"Thức ăn",
+			"QUESTIONID"=>7
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Dao"
+			"ANSWERNAME"=>"Dao",
+			"QUESTIONID"=>7
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Bật lửa"
+			"ANSWERNAME"=>"Bật lửa",
+			"QUESTIONID"=>7
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Áo ấm"
+			"ANSWERNAME"=>"Áo ấm",
+			"QUESTIONID"=>7
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Rất quan trọng"
+			"ANSWERNAME"=>"Rất quan trọng",
+			"QUESTIONID"=>8
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Có cũng được, không có cũng không sao"
+			"ANSWERNAME"=>"Có cũng được, không có cũng không sao",
+			"QUESTIONID"=>8
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Tớ muốn là FA"
+			"ANSWERNAME"=>"Tớ muốn là FA",
+			"QUESTIONID"=>8
 		));
 		DB::table('answers')->insert(array(
-			"ANSWERNAME"=>"Tình yêu là cái gì vậy? Có ăn được không?"
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 1,
-			"QUESTIONID" => 1
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 1,
-			"QUESTIONID" => 2
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 4,
-			"QUESTIONID" => 3
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 4,
-			"QUESTIONID" => 4
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 6,
-			"QUESTIONID" => 5
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 6,
-			"QUESTIONID" => 6
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 7,
-			"QUESTIONID" => 7
-		));
-		DB::table('hobby_has_question')->insert(array(
-			"HOBBYID" => 10,
-			"QUESTIONID" => 8
+			"ANSWERNAME"=>"Tình yêu là cái gì vậy? Có ăn được không?",
+			"QUESTIONID"=>8
 		));
 		
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 1,
-			"ANSWERID" => 1
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 1,
-			"ANSWERID" => 2
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 1,
-			"ANSWERID" => 3
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 1,
-			"ANSWERID" => 4
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 2,
-			"ANSWERID" => 5
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 2,
-			"ANSWERID" => 6
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 2,
-			"ANSWERID" => 7
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 2,
-			"ANSWERID" => 8
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 3,
-			"ANSWERID" => 9
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 3,
-			"ANSWERID" => 10
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 3,
-			"ANSWERID" => 11
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 3,
-			"ANSWERID" => 12
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 4,
-			"ANSWERID" => 13
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 4,
-			"ANSWERID" => 14
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 4,
-			"ANSWERID" => 15
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 4,
-			"ANSWERID" => 16
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 5,
-			"ANSWERID" => 17
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 5,
-			"ANSWERID" => 18
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 6,
-			"ANSWERID" => 19
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 6,
-			"ANSWERID" => 20
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 6,
-			"ANSWERID" => 21
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 6,
-			"ANSWERID" => 22
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 7,
-			"ANSWERID" => 23
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 7,
-			"ANSWERID" => 24
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 7,
-			"ANSWERID" => 25
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 7,
-			"ANSWERID" => 26
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 8,
-			"ANSWERID" => 27
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 8,
-			"ANSWERID" => 28
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 8,
-			"ANSWERID" => 29
-		));
-		DB::table('question_has_answer')->insert(array(
-			"QUESTIONID" => 8,
-			"ANSWERID" => 30
-		));
 	}
 
 	/**

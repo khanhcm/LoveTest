@@ -2,8 +2,14 @@
 
 class Question extends Eloquent{
 	protected $table = 'questions';
-	public function createQuestions(){
-		
+	protected $answers;
+
+	public function getAnswers(){
+		return $this->answers;
+	}
+
+	public function setAnswers($value){
+		$this->answers = $value;
 	}
 }
 

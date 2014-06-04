@@ -13,23 +13,18 @@
 	<link rel="stylesheet" href="assets/css/jquery-ui-1.10.4.custom.css">
 	<link rel="stylesheet" type="text/css" href="assets/buttons/buttons.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap.css"/>
-	<link rel="shortcut icon" href="../favicon.ico"> 
 	<link rel="stylesheet" type="text/css" href="assets/slide/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="assets/slide/css/elastislide.css" />
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
-	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />   
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery-1.10.2.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-ui-1.10.4.custom.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>
 	<script type="text/javascript" src="assets/slide/js/jquery.tmpl.min.js"></script>
 	<script type="text/javascript" src="assets/slide/js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="assets/slide/js/jquery.elastislide.js"></script>
 	<script type="text/javascript" src="assets/slide/js/gallery.js"></script>
-	
 	<noscript>
 		<style>
 			.es-carousel ul{

@@ -10,9 +10,8 @@
 					</div>
 					<div class="slogan">
 						<br>
-						<p>&nbsp</p>
-					  	<p>&nbsp</p>
-					  	<p>Find your love with a simple test!</p>
+						<p>&nbsp</p><p>&nbsp</p>
+					  	<p style="margin-top:-10px">Find your love with a simple test!</p>
 					</div>
 				</div>
 			</td> 
@@ -20,11 +19,11 @@
 				<div class="menu_block">
 					<nav>
 						@if(Session::has('login_success'))
-							<ul class="sf-menu" style="left:-300px;">
+							<ul class="sf-menu" style="left:-300px; top:-20px">
 								<li><a href="{{Asset('home1')}}">Trang chủ</a></li>
 								<li><a href="{{Asset('personal')}}">Cá nhân</a></li>
-								<li><a href="{{Asset('hobby')}}">Câu hỏi</a></li>
-								<li><a href="{{Asset('logout')}}">Đăng xuất</a></li>
+								<li style="position:relative; left:280px; top: -36px"><a href="{{Asset('hobby')}}">Câu hỏi</a></li>
+								<li style="position:relative; left:280px; top: -36px"><a href="{{Asset('logout')}}">Đăng xuất</a></li>
 							</ul>
 						@else
 							<ul class="sf-menu">

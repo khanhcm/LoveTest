@@ -2,6 +2,7 @@
 
 class User extends Eloquent{
 	protected $table = "users";
+	protected $hobbies;
 	public static function check_login($username, $password){
 		$check = User::where("username","=",$username)->where("password","=",$password)->count();
 		if($check > 0) return true;
@@ -27,5 +28,12 @@ class User extends Eloquent{
    		 return $results;
 
 	}
+
+	public function getHobbies(){
+		return $this->hobbies;
+	}
 	
+	public function setHobbies($value){
+		$this->hobbies = $value;
+	}
 }

@@ -16,6 +16,8 @@ class CreateAnswersTable extends Migration {
 		Schema::create('ANSWERS',function($table){
 			$table->increments('ID');
 			$table->text('ANSWERNAME');
+			$table->integer('QUESTIONID')->unsigned();
+			$table->foreign('QUESTIONID')->references('ID')->on('QUESTIONS');
 			$table->timestamps();
 		});
 	}

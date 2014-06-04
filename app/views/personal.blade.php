@@ -6,29 +6,9 @@
 
 @section("content")
 	@if(Input::get('edit') !=1)
-	<!-- <h1>THÔNG TIN CÁ NHÂN</h1>
-	
-		<div id="personal_info">
-			<table> 
-			<?php $userInfo = Session::get('user_info');?>
-			Tên đăng nhập: {{$userInfo[0]['USERNAME']}}<br/>
-			Họ và tên: {{$userInfo[0]['FULLNAME']}}<br/>
-			Email: {{$userInfo[0]['EMAIL']}}<br/>
-			Ngày sinh: {{$userInfo[0]['BIRTHDAY']}}<br/>
-			Ảnh đại diện: <br>
-			<img src="{{'uploads/images/'.$userInfo[0]['AVATAR']}}" width="150px" height="200px" alt=""><br/>
-			Địa chỉ: {{$userInfo[0]['USERADDRESS']}}<br/>
-			Nghề nghiệp: {{$userInfo[0]['USERJOB']}}<br/>
-			Tình trạng mối quan hệ:{{$userInfo[0]['RELATIONSHIP']}}<br/>
-			<a href="{{Asset('personal?edit=1')}}">Chỉnh sửa thông tin</a>
-			</table>
-		</div> -->
-
-		
-<h1>THÔNG TIN CÁ NHÂN</h1>
-		<div id="personal_info">
-			
-			<table class="table1"> 
+		<div id="personal_info" style="margin-left:500px">
+			<h3><font face="Calibri">THÔNG TIN CÁ NHÂN</font></h3>
+			<table class="table1" style="margin-left:50"> 
 				<thead>
 					<tr>
 						<th></th>
@@ -75,7 +55,7 @@
 			</tr>
 				</tbody>
 			</table>
-			<table class="table1"> 
+			<table> 
 				<tfoot>
 					<tr>
 						<td><a href="{{Asset('personal?edit=1')}}">Chỉnh sửa thông tin</a></td>
@@ -86,7 +66,7 @@
 	
 	
 	@else
-		<h1>CHỈNH SỬA THÔNG TIN CÁ NHÂN</h1>
+		<h3 style="margin-left:500px"><font face="Calibri">CHỈNH SỬA THÔNG TIN CÁ NHÂN</font></h3>
 		<script>
 			$(function(){
 				$('#date_of_birth').datepicker({dateFormat: 'dd/mm/yy'});
@@ -94,12 +74,12 @@
 		</script>
 		<form id="hobbies_frm" action="{{Asset('personal?edit=1')}}" method="post" enctype="multipart/form-data">
 			<?php $userInfo = Session::get('user_info');?>
-			Họ và tên: <input type=text name="full_name" id="full_name" value="{{$userInfo[0]['FULLNAME']}}" /><br/>
-			Ngày sinh: <input type=text name="date_of_birth" id="date_of_birth" value="{{$userInfo[0]['BIRTHDAY']}}" /><br/>
-			Ảnh đại diện: <input type=file name="avatar" id="avatar"><br/>
-			Địa chỉ: <input type=text name="user_address" id="user_address" value="{{$userInfo[0]['USERADDRESS']}}"/><br/>
-			Nghề nghiệp:<input type=text name="user_job" id="user_job" value="{{$userInfo[0]['USERJOB']}}"/><br/>
-			Tình trạng mối quan hệ:<input type=text name="user_relationship" id="user_relationship" value="{{$userInfo[0]['RELATIONSHIP']}}" /><br/>
+			Họ và tên: <input type=text name="full_name" id="full_name" value="{{$userInfo[0]['FULLNAME']}}" class="form-control" /><br/>
+			Ngày sinh: <input type=text name="date_of_birth" id="date_of_birth" value="{{$userInfo[0]['BIRTHDAY']}}" class="form-control"/><br/>
+			Ảnh đại diện: <input type=file name="avatar" id="avatar" class="form-control"><br/>
+			Địa chỉ: <input type=text name="user_address" id="user_address" value="{{$userInfo[0]['USERADDRESS']}}" class="form-control"/><br/>
+			Nghề nghiệp:<input type=text name="user_job" id="user_job" value="{{$userInfo[0]['USERJOB']}}" class="form-control"/><br/>
+			Tình trạng mối quan hệ:<input type=text name="user_relationship" id="user_relationship" value="{{$userInfo[0]['RELATIONSHIP']}}" class="form-control"/><br/>
 			<button class="btn btn-lg btn-primary btn-block" id="change_information"/>Chỉnh sửa thông tin</btn>
 		</form>
 	@endif

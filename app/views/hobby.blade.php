@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('title')
-	Trả lời các câu hỏi
+	Lựa chọn sở thích
 @endsection
 
 @section('content')
@@ -15,28 +15,38 @@
     </thead>
 
 </table>	 -->
-<form>
-<a class="button big orange"><b>Chọn lĩnh vực mà bạn thích</b></a>
-
+<form action="{{Asset('hobby')}}" method="post">
+	Câu hỏi đầu tiên dành cho bạn? Bạn thích những gì?<br>
 	<?php 
-		Hobby::createHobbies();
 		$hobbies = Hobby::all();
+		$userInfo = Session::get('user_info');
+    	$userid = $userInfo[0]['ID'];
+    	$ulbs = UserLikeHobby::where("USERID","=",$userid)->get();
 	?>	
-	
-	 
-					
-				
-					@foreach($hobbies as $key => $hobby)
-									
-					<a href="hobby?type={{$hobby->HOBBYCODE}}" class="button big green">{{$hobby->HOBBYNAME}}</a>					
-					
-					@endforeach
-				
-				
-	
-	@if(Input::get('type') == 'am-thuc')
-		
-	@endif
+	@foreach($hobbies as $key => $hobby)
+		<?php
+			$check = false;
+		?>
+		@foreach($ulbs as $key => $ulb)
+			@if($ulb->HOBBYID==$hobby->ID)
+				<?php
+					$check = true;
+					break 1;
+				?>
+			@else
+				<?php
+					$check = false;
+				?>
+			@endif
+		@endforeach		
+		@if($check)
+			{{Form::checkbox($hobby->HOBBYCODE,"yes","true")}}{{$hobby->HOBBYNAME}}
+			<br>
+		@else
+			{{Form::checkbox($hobby->HOBBYCODE,"yes")}}{{$hobby->HOBBYNAME}}<br>
+		@endif
+	@endforeach
+	<input type="submit" value="Chọn sở thích">
 </form>
 @endsection
 
