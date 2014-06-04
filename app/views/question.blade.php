@@ -21,7 +21,7 @@
 				$answers = Answer::where("QUESTIONID","=",$question->ID)->get();
 			?>	
 				@foreach ($answers as $answer)
-					<input type=radio name="question.{{$question->QUESTIONID}}" value="answer.{{$answer->ANSWERID}}">{{$answer->ANSWERNAME}}</input><br>
+					<input type=radio name="{{$question->QUESTIONID}}" value="{{$answer->ANSWERID}}">{{$answer->ANSWERNAME}}</input><br>
 				@endforeach
 			@endforeach	
 		@endforeach
