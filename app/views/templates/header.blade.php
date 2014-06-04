@@ -1,16 +1,42 @@
 <header>
-	<nav>
-		<ul>
-			@if(Session::has('login_success'))
-				<a href="{{Asset('home')}}" ><li>Home</li></a>
-				<a href="{{Asset('personal')}}" ><li>Personal</li></a>
-				<a href="{{Asset('hobby')}}" ><li>Question</li></a>
-				<a href="{{Asset('logout')}}" ><li>Logout</li></a>
-			@else
-				<a href="{{Asset('login')}}" ><li>Login</li></a>
-				<a href="{{Asset('register')}}"><li>Register</li></a>
-			@endif
-		</ul>
-	</nav>
+	<table>
+		<tr>
+			<td width="75%">
+				<div class="logo_block">
+					<div class="grid_12">
+						<a href="#">
+							<img src="images/logo.png" alt="LoveTest.vn">
+						</a>
+					</div>
+					<div class="slogan">
+						<br>
+						<p>&nbsp</p>
+					  	<p>&nbsp</p>
+					  	<p>Find your love with a simple test!</p>
+					</div>
+				</div>
+			</td> 
+			<td>
+				<div class="menu_block">
+					<nav>
+						@if(Session::has('login_success'))
+							<ul class="sf-menu" style="left:-300px;">
+								<li><a href="{{Asset('home1')}}">Trang chủ</a></li>
+								<li><a href="{{Asset('personal')}}">Cá nhân</a></li>
+								<li><a href="{{Asset('hobby')}}">Câu hỏi</a></li>
+								<li><a href="{{Asset('logout')}}">Đăng xuất</a></li>
+							</ul>
+						@else
+							<ul class="sf-menu">
+								<li><a href="{{Asset('login')}}">Đăng nhập</a></li>
+								<li><a href="{{Asset('register')}}">Đăng ký</a></li>
+							</ul>
+						@endif
+						
+					</nav>
+				</div>
+			</td>
+		</tr>
+	</table>
 </header>		
 		

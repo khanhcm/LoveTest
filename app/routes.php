@@ -18,14 +18,14 @@
 Route::get('/', function()
 {
     if(Session::has('login_success')){
-        return Redirect::to('home');
+        return Redirect::to('home1');
     }
-    else return Redirect::to('login');
+    else return Redirect::to('home2');
 });
 
 Route::filter("login_success",function(){
     if(Session::has('login_success'))
-        return Redirect::to('home');
+        return Redirect::to('home1');
 });
 
 Route::get('login',array('before'=>'login_success',function(){
@@ -39,6 +39,9 @@ Route::get('register',function(){
 Route::get('home',function(){
     return View::make('home');
 });
+Route::get('home1',function(){   
+    return View::make('home1');
+});
 
 Route::post('register','RegisterController@register');
 
@@ -48,7 +51,7 @@ Route::post('login',function(){
         Session::put('login_success',Input::get('user_name')." đã đăng nhập thành công");
         $user_info = User::where("username","=",Input::get("user_name"))->get()->toArray();
         Session::put("user_info",$user_info);
-        return Redirect::to('home');
+        return Redirect::to('home1');
     }
     else {
         return Redirect::to('login')->with('login-error',"Tên tài khoản hoặc mật khẩu không đúng")->withInput();        
@@ -114,3 +117,8 @@ Route::get('hobby',function(){
 
 
 Route::get('match', 'BaseController@user_match');
+
+Route::get('home2', function(){
+    return View::make('home2');
+});
+

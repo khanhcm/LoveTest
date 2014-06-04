@@ -1,7 +1,7 @@
 <?php
 
 class User extends Eloquent{
-	protected $table = 'users';
+	protected $table = "users";
 	public static function check_login($username, $password){
 		$check = User::where("username","=",$username)->where("password","=",$password)->count();
 		if($check > 0) return true;
@@ -17,4 +17,15 @@ class User extends Eloquent{
 		if(User::where("email","=",$email)->count()>0) return false;
 		else return true;
 	}
+	public static function avatar()
+	{		
+		$users=DB::table("users")->get();
+			foreach ($users as $user) {
+				$results=$user->USERNAME;
+			}
+
+   		 return $results;
+
+	}
+	
 }

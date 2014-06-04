@@ -1,13 +1,15 @@
-@extends("template")
+@extends('template')
 
-@section("title")
+@section('title')
 	Trang cá nhân
 @endsection
 
 @section("content")
 	@if(Input::get('edit') !=1)
+	<!-- <h1>THÔNG TIN CÁ NHÂN</h1>
+	
 		<div id="personal_info">
-			<h1>THÔNG TIN CÁ NHÂN</h1>
+			<table> 
 			<?php $userInfo = Session::get('user_info');?>
 			Tên đăng nhập: {{$userInfo[0]['USERNAME']}}<br/>
 			Họ và tên: {{$userInfo[0]['FULLNAME']}}<br/>
@@ -19,7 +21,70 @@
 			Nghề nghiệp: {{$userInfo[0]['USERJOB']}}<br/>
 			Tình trạng mối quan hệ:{{$userInfo[0]['RELATIONSHIP']}}<br/>
 			<a href="{{Asset('personal?edit=1')}}">Chỉnh sửa thông tin</a>
+			</table>
+		</div> -->
+
+		
+<h1>THÔNG TIN CÁ NHÂN</h1>
+		<div id="personal_info">
+			
+			<table class="table1"> 
+				<thead>
+					<tr>
+						<th></th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td></td>
+					</tr>
+				</tfoot>	
+				<tbody>
+			<?php $userInfo = Session::get('user_info');?>
+			<tr>
+				<th scope="row">Tên đăng nhập:</th>
+				<td> {{$userInfo[0]['USERNAME']}}<br/></td>
+			</tr>
+			<tr>
+				<th scope="row">Họ và tên:</th>
+				<td> {{$userInfo[0]['FULLNAME']}}<br/></td>
+			</tr>
+			<tr>
+				<th scope="row">Email:</th>
+				 <td>{{$userInfo[0]['EMAIL']}}<br/></td>
+			</tr>
+			<tr>
+				<th scope="row">Ngày sinh:</th>
+				<td> {{$userInfo[0]['BIRTHDAY']}}<br/></td>
+			</tr>
+			<tr>
+				<th scope="row">Ảnh đại diện:</th>
+				<td><img src="{{'uploads/images/'.$userInfo[0]['AVATAR']}}" width="150px" height="200px" alt=""><br/></td>
+			</tr>
+			<tr>
+				<th scope="row">Địa chỉ:</th>
+				<td>{{$userInfo[0]['USERADDRESS']}}<br/></td>
+			</tr>
+			<tr>
+				<th scope="row">Nghề nghiệp:</th>
+				<td>{{$userInfo[0]['USERJOB']}}<br/></td>
+			</tr>
+			<tr>
+				<th scope="row">Tình trạng mối quan hệ:</th>
+				<td>{{$userInfo[0]['RELATIONSHIP']}}<br/></td>
+			</tr>
+				</tbody>
+			</table>
+			<table class="table1"> 
+				<tfoot>
+					<tr>
+						<td><a href="{{Asset('personal?edit=1')}}">Chỉnh sửa thông tin</a></td>
+					</tr>				
+			</table>
+
 		</div>
+	
+	
 	@else
 		<h1>CHỈNH SỬA THÔNG TIN CÁ NHÂN</h1>
 		<script>
@@ -35,7 +100,7 @@
 			Địa chỉ: <input type=text name="user_address" id="user_address" value="{{$userInfo[0]['USERADDRESS']}}"/><br/>
 			Nghề nghiệp:<input type=text name="user_job" id="user_job" value="{{$userInfo[0]['USERJOB']}}"/><br/>
 			Tình trạng mối quan hệ:<input type=text name="user_relationship" id="user_relationship" value="{{$userInfo[0]['RELATIONSHIP']}}" /><br/>
-			<input type="submit" value="Chỉnh sửa thông tin" id="change_information" />
+			<button class="btn btn-lg btn-primary btn-block" id="change_information"/>Chỉnh sửa thông tin</btn>
 		</form>
 	@endif
 @endsection

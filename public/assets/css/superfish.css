@@ -7,7 +7,6 @@
 	margin-top: 30px;
 	float: right;
 	/*z-index: 999;*/
-	margin-left: -100px;
 	position: relative;
 }
 
@@ -51,7 +50,6 @@
 
 .menu_block nav {
 	font-family: "Calibri Light";
-	font-size: 30pt;
 	position: relative;
 }
 
@@ -63,12 +61,12 @@ nav>.sf-menu {
 }
 nav{ position:relative;padding: 0px 0 0 0;}
 .sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
-.sf-menu li {float:left;position:relative; display: inline-block; }
+.sf-menu li {float:left;position:relative; display: inline }
 .sf-menu>li {
-	display: block;
+	display: inline;
 	position: relative;
 	float: left;
-	font-size: 17pt;
+	font-size: 25pt;
 	line-height: 36px;
 }
 
@@ -81,7 +79,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	width: 1px;
 	content: '';
 	position: absolute;
-	display: block;
+	display: inline;
 	z-index: 999;
 	background-color: #c9c9c9;
 }
@@ -230,13 +228,10 @@ nav{ position:relative;padding: 0px 0 0 0;}
   .menu_block  nav{
   	border: none !important;
 		float:none !important;
-		font:12px/15px Arial, Helvetica, sans-serif;
 		text-transform:uppercase;
 		color:#927c67;
 		margin: 0 auto;
 		padding-left: 0 !important;
-		
-	
 	}
 
 	

@@ -5,8 +5,11 @@
 			"path": "/E/VertrigoServ/www/lovetest"
 		}
 	],
-	"settings": {
-        "xdebug": { "url": "http://localhost/lovetest/public" }
-    }
-	
+	"settings":
+	{
+		"xdebug":
+		{
+			"url": "http://localhost/lovetest/public"
+		}
+	}
 }

@@ -11,15 +11,15 @@ class RegisterController extends BaseController{
 		if(!Validator::make(Input::all(),$rules)->fails()){
 			if(User::check_user(Input::get('user_name')) && User::check_email(Input::get('email'))){
 				$user = new User();
-				$user->fullname = Input::get('full_name');
-				$user->username = Input::get('user_name');
-				$user->password = md5(sha1(Input::get('password')));
-				$user->email = Input::get('email');
-				$user->birthday =  Input::get('birthday');
-				$user->avatar  = 'default_avatar.jpg';
+				$user->FULLNAME = Input::get('full_name');
+				$user->USERNAME = Input::get('user_name');
+				$user->PASSWORD = md5(sha1(Input::get('password')));
+				$user->EMAIL = Input::get('email');
+				$user->BIRTHDAY =  Input::get('birthday');
+				$user->AVATAR  = 'default_avatar.jpg';
 				if(Input::get('male',true))
-					$user->gender = "Nam";
-				else $user->gender = "Nữ";
+					$user->GENDER = "Nam";
+				else $user->GENDER = "Nữ";
 				$user->save();
 				Session::put("register_success",Input::get('user_name')." đã đăng ký thành công!");
 				return Redirect::to('login');

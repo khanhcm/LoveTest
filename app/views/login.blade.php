@@ -13,9 +13,10 @@
 		<div id='login-error'>{{Session::get('login-error')}}</div>
 		<?php Session::forget('login-error');?>
 	@endif
-	<form action="login" method="post" name="login_frm">
-		Tên đăng nhập: <input type="text" name="user_name"><br>
-		Mật khẩu: <input type="password" name="password"><br>
-		<input type="submit" value="Đăng nhập" >
+	<form action="login" method="post" name="login_frm"><br/>
+		<h2>Đăng nhập</h2>
+		<input type="text" name="user_name"  placeholder="Username" class="form-control"/><br>
+		<input type="password" name="password"placeholder="Password" class="form-control"/><br>
+		<button class="btn btn-lg btn-primary btn-block"/>Đăng nhập</btn>
 	</form>
 @endsection
