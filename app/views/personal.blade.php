@@ -6,9 +6,9 @@
 
 @section("content")
 	@if(Input::get('edit') !=1)
-		<div id="personal_info" style="margin-left:500px">
+		<div id="personal_info" style="margin-left:500px" >
 			<h3><font face="Calibri">THÔNG TIN CÁ NHÂN</font></h3>
-			<table class="table1" style="margin-left:50"> 
+			<table class="table1" style="margin-left:50; margin-top:-230px"> 
 				<thead>
 					<tr>
 						<th></th>
@@ -58,7 +58,7 @@
 			<table> 
 				<tfoot>
 					<tr>
-						<td><a href="{{Asset('personal?edit=1')}}">Chỉnh sửa thông tin</a></td>
+						<td><a href="{{Asset('personal?edit=1')}}" class="form-control">Chỉnh sửa thông tin</a></td>
 					</tr>				
 			</table>
 

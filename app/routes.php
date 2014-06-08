@@ -136,7 +136,7 @@ Route::post('hobby',function(){
             }
         }
         else{
-            if(!Input::get($hobby->HOBBYCODE) === "yes"){
+            if(Input::get($hobby->HOBBYCODE) === "yes"){
                 
             }
             else{
@@ -152,4 +152,29 @@ Route::post('hobby',function(){
 
 Route::get('question',function(){
     return View::make('question');
+});
+
+Route::post('question',function(){
+    $userInfo = Session::get('user_info');
+    $userid = $userInfo[0]['ID'];
+    $answers = Answer::all();
+    foreach ($answers as $key => $answer) {
+         if(UserAnswerQuestion::where("ANSWERID","=",$answer->ID)->where("USERID","=",$userid)->count()<=0){
+            if(Input::get("question".$answer->QUESTIONID) === "answer".$answer->ID){
+                $uaq = new UserAnswerQuestion();
+                $uaq->USERID = $userid;
+                $uaq->ANSWERID = $answer->ID;
+                $uaq->save();
+            }
+        }
+        else{
+            if(Input::get("question".$answer->QUESTIONID) === "answer".$answer->ID){
+                
+            }
+            else{
+                $affectedRows = UserAnswerQuestion::where('ANSWERID', '=', $answer->ID)->delete();
+            }
+        }
+    }
+    return Redirect::to('home1');
 });

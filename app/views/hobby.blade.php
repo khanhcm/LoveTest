@@ -15,8 +15,8 @@
     </thead>
 
 </table>	 -->
+<h3 style="margin-left:400px">Câu hỏi đầu tiên dành cho bạn? Bạn thích những gì?</h3><br>
 <form action="{{Asset('hobby')}}" method="post">
-	Câu hỏi đầu tiên dành cho bạn? Bạn thích những gì?<br>
 	<?php 
 		$hobbies = Hobby::all();
 		$userInfo = Session::get('user_info');
@@ -40,13 +40,18 @@
 			@endif
 		@endforeach		
 		@if($check)
-			{{Form::checkbox($hobby->HOBBYCODE,"yes","true",array("class"=>"form-control"))}}{{$hobby->HOBBYNAME}}
+			<div class="form-control" style="border:none">
+				{{Form::checkbox($hobby->HOBBYCODE,"yes","true",array("style"=>"display:inline"))}}<h3 style="display:inline">{{"  ".$hobby->HOBBYNAME}}</h3>
+			</div>
 			<br>
 		@else
-			{{Form::checkbox($hobby->HOBBYCODE,"yes","",array("class"=>"form-control"))}}{{$hobby->HOBBYNAME}}<br>
+			<div class="form-control" style="border:none">
+				{{Form::checkbox($hobby->HOBBYCODE,"yes","",array("style"=>"display:inline"))}}<h3 style="display:inline">{{"  ".$hobby->HOBBYNAME}}</h3><br>
+			</div>
+			<br>
 		@endif
 	@endforeach
-	<input type="submit" value="Chọn sở thích" class="form-control">
+	<input type="submit" value="Chọn sở thích của bạn" class="form-control">
 </form>
 @endsection
 

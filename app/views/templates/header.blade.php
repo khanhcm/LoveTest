@@ -5,7 +5,7 @@
 				<div class="logo_block">
 					<div class="grid_12">
 						<a href="#">
-							<img src="images/logo.png" alt="LoveTest.vn">
+							<img src="assets/images/logo.png" alt="LoveTest.vn">
 						</a>
 					</div>
 					<div class="slogan">

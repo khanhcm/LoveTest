@@ -8,7 +8,7 @@ LoveTest.vn
 	<div class="container_12">
 		<div class="welcome">
 			<img src="assets/images/favicon.png">
-			<p><font face="Calibri Light">Chào mừng các bạn tham gia <font face="Nirmala UI" color="#2f17e4"><font color="#f11c8a">LOVE</font>TEST<font color="#f11c8a">.vn</font></font><br>Hãy cùng chúng tôi xây dựng một cộng đồng <br>kết bạn lớn nhất từ trước đến nay</font></p>
+			<p><font face="Calibri">Chào mừng các bạn tham gia <font face="Nirmala UI" color="#2f17e4"><font color="#f11c8a">LOVE</font>TEST<font color="#f11c8a">.vn</font></font><br>Hãy cùng chúng tôi xây dựng một cộng đồng <br>kết bạn lớn nhất từ trước đến nay</font></p>
 	  	</div>
 	  	<div class="fb-login">
 			<p>Các thành viên mới</p>
@@ -20,9 +20,13 @@ LoveTest.vn
 					$users = User::orderBy('created_at','DESC')->take(15)->get();
 				?>
 				@foreach ($users as $user)
-					<li display=inline float=left><img src="uploads/images/{{$user->AVATAR}}" width="100px" height="150px"  /></li>
+					<li style="display:inline; float:left"><img src="uploads/images/{{$user->AVATAR}}" width="100px" height="150px"  /></li>
 				@endforeach
 			</ul>
+			<p>&nbsp</p><br>
+			<p>&nbsp</p><br>
+			<p>&nbsp</p><br>
+			<p>&nbsp</p><br>
 		</div>
 	</div>
 @endsection

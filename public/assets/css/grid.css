@@ -24,7 +24,8 @@ body {
   text-align:left;
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: 1024px;
+  background-color: #ffffff
 }
 
 
@@ -120,10 +121,14 @@ body {
   width: 860px;
 }
 
+
 .container_12 .grid_12 {
-  width: 940px;
+  width: 1024px;
 }
 
+.container_12 .grid_12 .copy {
+  color: #009fa2;  
+}
 /* `Prefix Extra Space >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
 

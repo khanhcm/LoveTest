@@ -1,32 +1,44 @@
 @extends('template')
 
 @section('title')
-Trang chủ
+LoveTest.vn
 @endsection
 
 @section('content')
-    	<div class="container_12">
-		<div class="welcome">
-			<img src="assets/images/favicon.png">
-			<p><font face="Calibri Light">Chào mừng các bạn tham gia <font face="Nirmala UI" color="#2f17e4"><font color="#f11c8a">LOVE</font>TEST<font color="#f11c8a">.vn</font></font><br>Hãy cùng chúng tôi xây dựng một cộng đồng <br>kết bạn lớn nhất từ trước đến nay</font></p>
-	  	</div>	  
-	  
 
-				
-	</div>
+    	
 		<div class="container">
 			<div class="header">
-				<h2>Tham gia gần đây</h2>
+				<h2>Có thể bạn biết những người này</h2>
 				<span class="right_ab">
 					
 				</span>
 				<div class="clr"></div>
 			</div><!-- header -->
 			
+			<div class="content">
 				
+				<div id="rg-gallery" class="rg-gallery">
+					
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">	
+							<div class="rg-image-wrapper"> 	
+								<?php 
+									
+									$users=DB::table("users")->get();
+								?>	
+								<ul>									
+           						 @foreach ($users as $user)                					 	
+               					 		<li><img data-large="uploads/images/{{$user->AVATAR}}" data-description="Tên đầy đủ {{$user->FULLNAME}}, giới tính {{$user->GENDER}}, nhà ở {{$user->USERADDRESS}}, hiện đang là {{$user->USERJOB}}, tỉ lệ trùng khớp:"/></a></li>
+           						@endforeach									
+								</ul>
+							</div>
+							
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					<!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+				
+			</div><!-- content -->
 		</div><!-- container -->
-		<script type="text/javascript" src="assets/slide/js/jquery.tmpl.min.js"></script>
-		<script type="text/javascript" src="assets/slide/js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="assets/slide/js/jquery.elastislide.js"></script>
-		<script type="text/javascript" src="assets/slide/js/gallery.js"></script>
 @endsection

@@ -4,6 +4,106 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
+				"con",
+				"container_12"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"user",
+				"user2"
+			],
+			[
+				"us",
+				"user1"
+			],
+			[
+				"ans",
+				"answer2"
+			],
+			[
+				"an",
+				"answer1"
+			],
+			[
+				"answ",
+				"answer"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"hom",
+				"home1"
+			],
+			[
+				"u",
+				"userid"
+			],
+			[
+				"User",
+				"UserAnswerQuestion"
+			],
+			[
+				"q",
+				"question"
+			],
+			[
+				"HO",
+				"HOBBYCODE"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"HOBBY",
+				"HOBBYID"
+			],
+			[
+				"USER",
+				"USERID"
+			],
+			[
+				"ho",
+				"hobby"
+			],
+			[
+				"QUE",
+				"QUESTIONID"
+			],
+			[
+				"HOBB",
+				"HOBBYID"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
 				"AN",
 				"ANSWERNAME"
 			],
@@ -16,14 +116,6 @@
 				"QUESTIONNAME"
 			],
 			[
-				"HOBBY",
-				"HOBBYCODE"
-			],
-			[
-				"USER",
-				"USERJOB"
-			],
-			[
 				"ex",
 				"explode"
 			],
@@ -32,20 +124,8 @@
 				"mysql_error"
 			],
 			[
-				"hom",
-				"home2"
-			],
-			[
 				"im",
 				"images"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"ho",
-				"hobby2"
 			],
 			[
 				"array",
@@ -54,10 +134,6 @@
 			[
 				"var",
 				"var_dump"
-			],
-			[
-				"user",
-				"userid1"
 			],
 			[
 				"conver",
@@ -74,10 +150,6 @@
 			[
 				"hob",
 				"hobby"
-			],
-			[
-				"for",
-				"foreach	foreach …"
 			],
 			[
 				"file",
@@ -106,10 +178,6 @@
 			[
 				"fu",
 				"full_name"
-			],
-			[
-				"us",
-				"userInfo"
 			],
 			[
 				"un",
@@ -220,10 +288,6 @@
 				"inline-block"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"pro",
 				"profile"
 			],
@@ -238,10 +302,6 @@
 			[
 				"al",
 				"vertical-align"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"co",
@@ -284,10 +344,6 @@
 				"user_email"
 			],
 			[
-				"u",
-				"user"
-			],
-			[
 				"html",
 				"htmlentities"
 			],
@@ -319,7 +375,7 @@
 			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 3589,
+				"buffer_size": 5416,
 				"line_ending": "Unix"
 			}
 		},
@@ -327,7 +383,39 @@
 			"file": "app/views/home2.blade.php",
 			"settings":
 			{
-				"buffer_size": 912,
+				"buffer_size": 995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/hobby.blade.php",
+			"settings":
+			{
+				"buffer_size": 1445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/question.blade.php",
+			"settings":
+			{
+				"buffer_size": 1079,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/home1.blade.php",
+			"settings":
+			{
+				"buffer_size": 1192,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/personal.blade.php",
+			"settings":
+			{
+				"buffer_size": 2843,
 				"line_ending": "Unix"
 			}
 		},
@@ -335,7 +423,33 @@
 			"file": "public/assets/css/superfish.css",
 			"settings":
 			{
-				"buffer_size": 3852,
+				"buffer_size": 3976,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 16948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 3930 files for \"login-background\" (whole word)\n\n0 matches across 0 files\n",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "public/assets/css/grid.css",
+			"settings":
+			{
+				"buffer_size": 5450,
 				"line_ending": "Unix"
 			}
 		},
@@ -343,31 +457,7 @@
 			"file": "app/views/templates/header.blade.php",
 			"settings":
 			{
-				"buffer_size": 1006,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/home1.blade.php",
-			"settings":
-			{
-				"buffer_size": 2386,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/template.blade.php",
-			"settings":
-			{
-				"buffer_size": 2773,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/register.blade.php",
-			"settings":
-			{
-				"buffer_size": 3503,
+				"buffer_size": 1139,
 				"line_ending": "Unix"
 			}
 		}
@@ -436,18 +526,33 @@
 	},
 	"file_history":
 	[
+		"/E/VertrigoServ/www/lovetest/public/assets/css/grid.css",
+		"/E/VertrigoServ/www/lovetest/public/assets/css/style.css",
+		"/E/VertrigoServ/www/lovetest/app/views/question.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/templates/header.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/personal.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/views/home1.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/controllers/UserMatchController.php",
+		"/E/VertrigoServ/www/lovetest/app/views/hobby.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_05_003442_create_user_answer_question_table.php",
+		"/E/VertrigoServ/www/lovetest/app/views/home2.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/models/UserAnswerQuestion.php",
+		"/E/VertrigoServ/www/lovetest/public/assets/css/superfish.css",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130315_create_user_like_hobby_table.php",
+		"/E/VertrigoServ/www/lovetest/app/views/template.blade.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130727_insert_data.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130202_create_answers_table.php",
+		"/E/VertrigoServ/www/lovetest/app/models/QuestionHasAnswer.php",
+		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130121_create_questions_table.php",
+		"/E/VertrigoServ/www/lovetest/app/models/User.php",
+		"/E/VertrigoServ/www/lovetest/app/models/Hobby.php",
+		"/E/VertrigoServ/www/lovetest/app/models/Question.php",
+		"/E/VertrigoServ/www/lovetest/app/views/register.blade.php",
 		"/E/VertrigoServ/www/lovetest1/app/views/register.blade.php",
 		"/E/VertrigoServ/www/lovetest1/app/views/template.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/views/register.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/views/template.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/RegisterController.php",
-		"/E/VertrigoServ/www/lovetest/app/models/Hobby.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130506_create_question_has_answer_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130727_insert_data.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130411_create_hobby_has_question_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130315_create_user_like_hobby_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130202_create_answers_table.php",
-		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130121_create_questions_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130049_create_hobbies_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_130005_create_users_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_06_04_125448_create_questions_table.php",
@@ -462,35 +567,26 @@
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023608_create_users_table.php",
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_24_023831_create_user_like_hobby_table.php",
 		"/E/VertrigoServ/www/lovetest/public/assets/css/jquery-1.11.1.js",
-		"/E/VertrigoServ/www/lovetest/public/assets/css/style.css",
 		"/E/VertrigoServ/www/lovetest/app/storage/views/02023be7a080c1c05902dd9c688fdf33",
 		"/E/VertrigoServ/www/yen/app/views/home1.blade.php",
 		"/E/VertrigoServ/www/yen/app/views/lovetest.blade.php",
 		"/E/VertrigoServ/www/yen/app/routes.php",
 		"/E/VertrigoServ/www/yen/app/views/templates/header.blade.php",
 		"/E/VertrigoServ/www/yen/public/assets/css/style.css",
-		"/E/VertrigoServ/www/lovetest/app/views/templates/header.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/views/hobby.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/login.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/views/successful.blade.php",
 		"/E/VertrigoServ/www/lovetest/public/assets/css/form.css",
 		"/E/VertrigoServ/www/yen/app/views/template.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/views/home1.blade.php",
 		"/E/VertrigoServ/www/lovetest/app/routes.php",
-		"/E/VertrigoServ/www/lovetest/app/views/personal.blade.php",
-		"/E/VertrigoServ/www/lovetest/app/models/Question.php",
-		"/E/VertrigoServ/www/lovetest/app/controllers/UserMatchController.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/QuestionController.php",
 		"/E/VertrigoServ/www/lovetest/app/models/UserLikeHobby.php",
 		"/E/VertrigoServ/www/lovetest/app/models/HobbyHasQuestion.php",
-		"/E/VertrigoServ/www/lovetest/app/models/QuestionHasAnswer.php",
 		"/E/VertrigoServ/www/lovetest/app/models/Answer.php",
 		"/E/VertrigoServ/www/lovetest/app/models/HobbyHasQuestion",
 		"/E/VertrigoServ/www/lovetest/app/models/Question",
 		"/E/VertrigoServ/www/lovetest/app/views/home.blade.php",
 		"/E/VertrigoServ/www/lovetest/public/jquery-ui-1.10.4.custom.zip",
 		"/E/VertrigoServ/www/lovetest/app/controllers/ChangeInformationController.php",
-		"/E/VertrigoServ/www/lovetest/app/models/User.php",
 		"/F/Installation/Sublime Text 2.0.2 x64/Data/Packages/SVN/SVN.sublime-settings",
 		"/E/VertrigoServ/www/lovetest/app/controllers/LoginController.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/UserController.php",
@@ -518,7 +614,6 @@
 		"/E/VertrigoServ/www/lovetest/app/database/migrations/2014_05_21_164425_create_profiles_table.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/BaseController.php",
 		"/E/VertrigoServ/www/lovetest/app/controllers/FacebookLoginController",
-		"/E/VertrigoServ/www/lovetest/public/assets/css/superfish.css",
 		"/E/VertrigoServ/www/lovetest/app/views/templates/footer.blade.php",
 		"/E/VertrigoServ/www/lovetest/public/resources/css/superfish.css",
 		"/E/VertrigoServ/www/lovetest/app/config/database.php",
@@ -558,12 +653,7 @@
 		"/E/Wamp/www/lovetest/site/images/favicon.ico",
 		"/E/BaiGiang/Nhap Mon CNPM/BCFinal/Querry Ultimate.sql",
 		"/E/Wamp/www/lovetest/app/views/index.php",
-		"/E/Wamp/www/lovetest/app/views/app/config.php",
-		"/E/Wamp/www/lovetest/app/views/app/detect.php",
-		"/E/Wamp/www/lovetest/app/views/app/contact.php",
-		"/C/Users/CaoMinh/Desktop/etsdff.php",
-		"/E/disable",
-		"/E/mang.bat"
+		"/E/Wamp/www/lovetest/app/views/app/config.php"
 	],
 	"find":
 	{
@@ -571,7 +661,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"E:\\VertrigoServ\\www\\lovetest",
@@ -583,6 +673,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"login-background",
+			"background-repeat.png",
+			"background-repeat",
+			" ;",
+			"content",
+			"page1",
+			"copy",
+			"container12",
+			"page1",
+			"#top",
+			"color",
+			"rg-view",
+			"form-control",
+			"hobby_has_question",
+			"sf-menu",
+			"Ask.fm",
 			"sf-menu",
 			"menu_block",
 			"sf_menu",
@@ -635,6 +741,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Q",
+			"LoveTest.vn",
 			"assets",
 			"resources/"
 		],
@@ -647,7 +755,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -655,15 +763,15 @@
 					"file": "app/routes.php",
 					"settings":
 					{
-						"buffer_size": 3589,
+						"buffer_size": 5416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								959,
-								959
+								389,
+								389
 							]
 						],
 						"settings":
@@ -673,7 +781,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 320.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -683,15 +791,15 @@
 					"file": "app/views/home2.blade.php",
 					"settings":
 					{
-						"buffer_size": 912,
+						"buffer_size": 995,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								640,
-								640
+								732,
+								732
 							]
 						],
 						"settings":
@@ -700,52 +808,52 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "public/assets/css/superfish.css",
+					"file": "app/views/hobby.blade.php",
 					"settings":
 					{
-						"buffer_size": 3852,
+						"buffer_size": 1445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2318,
-								2318
+								1326,
+								1326
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2274.0,
+						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/templates/header.blade.php",
+					"file": "app/views/question.blade.php",
 					"settings":
 					{
-						"buffer_size": 1006,
+						"buffer_size": 1079,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								277,
-								277
+								272,
+								272
 							]
 						],
 						"settings":
@@ -764,15 +872,15 @@
 					"file": "app/views/home1.blade.php",
 					"settings":
 					{
-						"buffer_size": 2386,
+						"buffer_size": 1192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1676,
-								1676
+								808,
+								808
 							]
 						],
 						"settings":
@@ -781,25 +889,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 985.0,
+						"translation.y": 285.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "app/views/template.blade.php",
+					"file": "app/views/personal.blade.php",
 					"settings":
 					{
-						"buffer_size": 2773,
+						"buffer_size": 2843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2003,
-								2003
+								492,
+								492
 							]
 						],
 						"settings":
@@ -815,18 +923,132 @@
 				},
 				{
 					"buffer": 6,
-					"file": "app/views/register.blade.php",
+					"file": "public/assets/css/superfish.css",
 					"settings":
 					{
-						"buffer_size": 3503,
+						"buffer_size": 3976,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2713,
-								2713
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 16948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/assets/css/grid.css",
+					"settings":
+					{
+						"buffer_size": 5450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1910,
+								1910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1482.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/templates/header.blade.php",
+					"settings":
+					{
+						"buffer_size": 1139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
 							]
 						],
 						"settings":
@@ -835,7 +1057,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1488.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

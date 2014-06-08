@@ -23,10 +23,12 @@
 	display: block;
 	font-family:Arial;
 	font-size:25pt;
-	line-height: 100%
+	line-height: 100%;
+	margin-left:40px;
 }
 .fb-login{
 	margin-top: 100px;
+	margin-left: 40px;
 }
 
 .fb-login p{
@@ -49,7 +51,7 @@
 
 
 .menu_block nav {
-	font-family: "Calibri Light";
+	font-family: "Calibri";
 	position: relative;
 }
 
@@ -58,6 +60,7 @@ nav>.sf-menu {
 	/*z-index: 990;*/
 	text-align: left;
 	position: relative;
+	font-family: "Calibri";
 }
 nav{ position:relative;padding: 0px 0 0 0;}
 .sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
@@ -68,6 +71,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	float: left;
 	font-size: 25pt;
 	line-height: 36px;
+	font-family: "Calibri";
 }
 
 
@@ -105,6 +109,8 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	display: block;
 	position: relative;
 	overflow: hidden;
+	font-family: "Calibri";
+	font-size: 20pt;
 }
 
 .sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
